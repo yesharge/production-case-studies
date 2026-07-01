@@ -51,18 +51,21 @@ We wanted to:
 
 ## My Role
 
-Initially, I partnered with a Staff Engineer to build the shared component library and define the overall migration strategy.
+I partnered with a Staff Engineer to define and execute the overall accessibility strategy for the initiative. Together, we evaluated the audit findings, identified opportunities to address issues through shared abstractions rather than one-off fixes, prioritized remediation work, and designed the accessibility-first component library that would become the foundation for adoption across product teams.
 
-Midway through the initiative, the Staff Engineer transitioned to another high-priority project. I became responsible for driving much of the remaining implementation while onboarding another engineer who joined the project later.
+I worked closely with Design to define accessible interaction patterns and refine component behavior, ensuring the new library balanced accessibility, usability, and consistency with the existing product experience. As new components were introduced, I also partnered with QA to organize and run accessibility-focused bug bashes to validate behavior across supported platforms and identify regressions before broader rollout.
 
-Beyond implementation, I worked closely with engineers across multiple product teams by:
+Midway through the initiative, the Staff Engineer transitioned to another high-priority project. From that point forward, I led much of the remaining implementation, onboarded another engineer onto the project, coordinated remediation efforts across product teams, and became one of the primary technical resources for accessibility questions throughout the organization.
 
-- consulting on accessibility issues
-- reviewing migration plans
-- answering implementation questions
-- writing technical documentation
-- helping prioritize remediation work
-- identifying reusable accessibility patterns
+Beyond implementation, my responsibilities included:
+
+- Designing accessible shared components for web and React Native
+- Partnering with Design to evolve component behavior and APIs
+- Working with QA to plan and execute accessibility bug bashes
+- Building codemods to automate migration to the new components
+- Writing technical documentation and migration guides
+- Consulting with product teams on accessibility issues and implementation patterns
+- Reviewing remediation approaches and identifying opportunities for shared solutions
 
 ---
 
